@@ -4,5 +4,5 @@ game.Players.PlayerAdded:Connect(function(NewPlayer)
 
 	local Coins = Instance.new("IntValue",leaderstats)
 	Coins.Name = "Coins"
-	Coins.Value = 0
+	Coins.Value = 10
 end)
